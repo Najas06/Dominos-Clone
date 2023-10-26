@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+       display: flex;
+       background-color: white;
+       height: 80px;
+}
+.logo{
+    padding-top: 1em;
+    padding-left: 5em;
+}
+.link{
+    display: flex;
+    padding-top: 1em;
+    padding-left: 10em;
+    list-style-type: none
+}
+.link li,a{
+    font-family: Nunito;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+.link a:hover{
+    color: #1a5ca3;
+}
+.DownloadApp{
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.DownloadApp button{
+    background-color: #f3223b;
+    width: 148px;
+    height: 45px;
+    border-radius: 5px;
+    border-color: white;
+}
+.DownloadApp a{
+    margin-right: 15px;
+    color: white;
+}
+.secondPart{
+    background-color:#1a5ca3;
+    height: 22em;
+    display: flex;
+    padding: 3em;
+}
+.title1{
+    font-family: Nunito;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 3em;
+    padding-top: 3.5em;
+    display: block;
+}
+.title1 p{
+    color: #47a0ff;
+    font-family: Nunito;
+    font-weight: lighter;
+    font-size: 21px;
+}
+.title1 button{
+    background-color: #1fb31a;
+    width: 30em;
+    height: 5em;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 #024389, 0 0 2px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 25px;
+}
+.title1 a{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Archivo Black;
+}
+.title1 img{
+    display: block;
+    padding-top: .5em;
+}
+.mainImage{
+    position: absolute;
+    margin-top: -33px;
+    padding-left: 34.9em;
+}
+.home{
+    background-color: #eee;
+    display: block;
+    height: 50px;
+    margin-top: 15px;
+}
+.home a{
+    text-decoration: none;
+    color: #1a5ca3;
+}
+.Thirdpart{
+    margin: 40px 100px 0px 100px;
+}
+.Thirdpart h1{
+    font-family: Archivo Black;
+    color: #708aa5;
+    font-weight: bolder;
+}
+.fourthpart{
+    padding: 1% 7%;
+}
+.Explore{
+    margin: 40px 100px 0px 100px;
+}
+.Explore h1{
+    font-family: Archivo Black;
+    color: #708aa5;
+    font-weight: bolder;
+}
+.Explore-menu{
+    display: inline-flex;
+    padding-left: 7%;
+}
+.card{
+    border:  1px dotted;
+    height: 280px;
+    width: 300px;
+    border-radius: 3px;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline;
+}
+.icons {
+    align-items: center;
+    text-align: center; 
+    padding-top: 9%;
+    text-decoration: none;  
+}
+.icons img{
+    width: 18%;
+}
+.icon-title{
+    text-align: center;
+    color: #2b4547;
+    font-family: Archivo Black;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.icon-writes{
+    text-align: center;
+    color: #2b4547;
+    font-family: Nunito;
+    margin-top: 10px;
+    font-size: 15px; 
+}
+.icons2 {
+    align-items: center;
+    text-align: center; 
+    padding-top: 9%;
+    text-decoration: none;  
+}
+.icons2 img{
+    width: 27%;
+}
+.icons3 img{
+    width: 23%;
+    margin-top: -5px;
+}
+.icons3 {
+    align-items: center;
+    text-align: center; 
+    text-decoration: none; 
+    margin-bottom: 10px; 
+}
+.icons4 {
+    align-items: center;
+    text-align: center; 
+    text-decoration: none; 
+    margin-bottom: 10px; 
+}
+.icons4 img{
+    width: 28%;
+    margin-top: 15%;
+}
+.explore-btn{
+    display: inline-flex;
+    padding-left: 7%;
+    position: relative;
+}
+.buttons{
+     border:  1px dotted;
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    color: grey;
+    margin-top: -2px;
+    margin-left: 15px;
+    border-top: transparent;
+    text-align: center;
+    padding-top: 20px;
+}
+.buttons a{
+    color: #de042e;
+    font-family: Archivo Black;  
+}
+.fivethPart{
+    width: 100%;
+    height: 400px;
+    background-color: #eef0f3;
+    display: flex;
+    margin-top: 15px;
+}
+.poster{
+    padding-left: 12%;
+}
+.posterwrites{
+    padding-left: 10%;
+    padding-top: 7%;
+    font-family: Nunito;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #024389;
+}
+.posterwrites p {
+    margin-top: 30px;
+}
+.posterwrites img{
+    margin-top: 50px;
+}
+.sixthpart{
+    padding-left: 4%;
+    padding-top: 3%;
+}
+.sixthpart h1{
+    font-family: Archivo Black;
+    font-weight: lighter;
+    color: #024389;
+}
+.sixthpart p{
+    font-family: Nunito;
+    font-weight: lighter;
+    color: #54565b;
+}
+.footerpart{
+    background-color: #222e3a;
+    height: 400px;
+    padding-top: 2em;
+    display: flex;
+}
+.foot-menu ul{
+    font-size: 20px;
+    list-style-type: none;
+    font-family: Archivo Black;
+    font-weight: lighter;
+}
+.foot-menu {
+    list-style-type: none;
+    color: #eee;
+    padding-left: 5%;
+}
+.menu-title li{
+    padding-top: 12%;
+}
+.menu-title a{
+    color: #eee;
+    font-size: 15px;
+    font-family: Nunito;
+}
+.menu-title i {
+    margin-left: 10px;
+    font-size: 30px
+}
